@@ -24,3 +24,7 @@ var App = React.createClass({
     );
   }
 });
+
+var Image = function Image(props) {
+  return React.createElement('div', { className: 'Image', style: { backgroundImage: 'url(' + props.src + ')' } });
+};
