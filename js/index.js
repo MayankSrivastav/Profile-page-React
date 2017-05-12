@@ -38,3 +38,8 @@ var Profile = function Profile(props) {
       { className: 'Name' },
       props.person.name
     ),
+    React.createElement(
+      'p',
+      { className: 'Bio' },
+      props.person.bio
+    ),
