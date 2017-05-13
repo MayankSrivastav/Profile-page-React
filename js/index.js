@@ -43,3 +43,22 @@ var Profile = function Profile(props) {
       { className: 'Bio' },
       props.person.bio
     ),
+    React.createElement(
+      'div',
+      { className: 'Quote' },
+      React.createElement(
+        'blockquote',
+        null,
+        '“ ',
+        props.quote.source,
+        ' ” '
+      ),
+      React.createElement(
+        'div',
+        { className: 'byline' },
+        '— ',
+        props.quote.source
+      )
+    )
+  );
+};
