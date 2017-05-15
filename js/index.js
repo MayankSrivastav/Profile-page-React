@@ -62,3 +62,5 @@ var Profile = function Profile(props) {
     )
   );
 };
+
+ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
