@@ -20,3 +20,18 @@ $sandybrown: #F49D6E;
   height: 100vh;
   font-family: 'Roboto';
   display: flex;
+  @include mq(980px) {
+    flex-direction: column;
+  }
+  
+  .Image {
+    width: 50vw;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+    @include mq(980px) {
+      width: 100vw;
+      height: 70vh;
+    }
+  }
