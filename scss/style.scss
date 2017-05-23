@@ -39,7 +39,7 @@ $sandybrown: #F49D6E;
   .Profile {
     width: 50vw;
     padding: 5vw 10vw;
-    boz-sizing: border-box;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     color: $spacecadet;
