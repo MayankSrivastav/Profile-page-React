@@ -35,3 +35,11 @@ $sandybrown: #F49D6E;
       height: 70vh;
     }
   }
+
+  .Profile {
+    width: 50vw;
+    padding: 5vw 10vw;
+    boz-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: $spacecadet;
