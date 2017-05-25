@@ -43,3 +43,8 @@ $sandybrown: #F49D6E;
     display: flex;
     flex-direction: column;
     color: $spacecadet;
+
+    @include mq(980px) {
+      width: 100vw;
+      height: 30vh;
+    }
