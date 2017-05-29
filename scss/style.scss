@@ -61,3 +61,13 @@ $sandybrown: #F49D6E;
       margin-bottom: 3vw;
       opacity: .4;
     }
+
+    .Quote {
+      margin-top: auto;
+      blockquote {
+        font-size: 36px;
+        font-family: 'Abril Fatface';
+        font-style: italic;
+        line-height: 1.4;
+        margin-bottom: .6em;
+      }
